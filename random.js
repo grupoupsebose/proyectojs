@@ -20,7 +20,7 @@ tiraDados();*/
 var numAzar = numeroAlAzarHastaLimite(100);
 alert("El numero es:    " + numAzar);*/
 
-function max(num1, num2)
+/*function max(num1, num2)
 {
 	if (parseInt(num1) > parseInt(num2))
 	{
@@ -41,4 +41,14 @@ function saludo(){
 var mensaje = "Chao";
 saludo();
 alert(mensaje);
-saludo();
+saludo();*/
+
+var num = prompt("Ingrese un numero:  ");
+
+	if(isNaN(num))
+{
+	throw new Error("No es un numero valido");
+	}else{ 
+		num = num *0.5;
+	}
+	alert(num);
