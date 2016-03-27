@@ -1,4 +1,4 @@
-function numazarlimites(lim1, lim2) 
+/*function numazarlimites(lim1, lim2) 
 {
 var num = Math.round(Math.random() * (lim1-lim2)) + lim2;
 return num;
@@ -11,9 +11,9 @@ if(isNaN(limiteInferior) || isNaN(limiteSuperior))
 	throw new Error("valor ingresado no es un numero");;
 }
 var contador = 0;
-while(contador<10)
+while(contador<100)
 {
 	var randomico=numazarlimites(parseInt(limiteInferior),parseInt(limiteSuperior));
 	document.write(randomico + "  ");
 	contador++;
-}
+}*/
